@@ -33,5 +33,4 @@ def find_a(array)
     word.start_with?("a")
     found << word
   end
-  a
 end
