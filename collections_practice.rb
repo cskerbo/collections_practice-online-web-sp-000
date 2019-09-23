@@ -45,8 +45,10 @@ total
 end
 
 def add_s(array)
+
   added = []
   array.each_with_index do |word, index|
+    yield word if index = 1
     added << word + "s"
   end
 added
