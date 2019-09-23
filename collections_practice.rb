@@ -47,7 +47,8 @@ end
 def add_s(array)
   added = []
   array.each_with_index do |word, index|
-    yield word if index = 1
+    if index = 1
+      yield word
     added << word + "s"
   end
 added
