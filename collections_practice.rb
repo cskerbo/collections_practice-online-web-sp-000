@@ -30,7 +30,7 @@ end
 def find_a(array)
   a = []
   array.find do |word|
-    word.first("a")
+    word.include?("a")
     word << a
   end
 end
