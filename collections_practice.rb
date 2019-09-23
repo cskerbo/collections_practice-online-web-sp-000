@@ -38,7 +38,7 @@ end
 
 def sum_array(array)
   total = 0
-  array. each do |number|
+  array.each do |number|
   total = total + number
   end
 total
@@ -46,8 +46,7 @@ end
 
 def add_s(array)
   added = []
-  array[0, 2, 3].each do |word| "#{word}"+"s"
+  array.each do |word| "#{word}"+"s"
     added << word
   end
 end
-    
