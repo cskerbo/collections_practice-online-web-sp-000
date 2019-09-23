@@ -26,3 +26,11 @@ def kesha_maker(array)
     kesha << word
   end
 end
+
+def find_a(array)
+  a = []
+  array.find do |word|
+    word.first?("a")
+    word << a
+  end
+end
