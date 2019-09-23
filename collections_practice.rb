@@ -50,4 +50,5 @@ def add_s(array)
     "#{word+"s"}"
     added << word
   end
+added
 end
