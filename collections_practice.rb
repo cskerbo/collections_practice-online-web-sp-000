@@ -46,7 +46,7 @@ end
 
 def add_s(array)
   added = []
-  array.each do |word|
+  array.each_with_index do |word, index|
     added << word + "s"
   end
 added
