@@ -46,7 +46,7 @@ end
 
 def add_s(array)
   added = []
-  array.each do |word| word.join("s")
+  array.each do |word| "#{word}".join("s")
     added << word
   end
 added
