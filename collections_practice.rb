@@ -20,10 +20,9 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
+  kesha = []
   array.each do |word|
-    if index = 2
-      index = "$"
-    end
+    word[2] = $
+    kesha << word
   end
-
 end
